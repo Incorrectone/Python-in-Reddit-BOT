@@ -1,0 +1,25 @@
+CREATE TABLE `defined_functions` (
+  `Func_ID` int(255) NOT NULL AUTO_INCREMENT,
+  `Function_name` mediumtext NOT NULL,
+  `Comment_ID` mediumtext NOT NULL,
+  `DateandTime` mediumtext NOT NULL,
+  `Author` mediumtext NOT NULL,
+  `Execution` mediumtext NOT NULL,
+  `Input` mediumtext NOT NULL,
+  `Perm` mediumtext NOT NULL DEFAULT 'user',
+  PRIMARY KEY (`Func_ID`),
+  UNIQUE KEY `Function_name` (`Function_name`) USING HASH,
+  UNIQUE KEY `Comment_ID` (`Comment_ID`) USING HASH
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4
+
+CREATE TABLE `log_changes` (
+  `Num` int(255) NOT NULL AUTO_INCREMENT,
+  `Author` mediumtext NOT NULL,
+  `Comment_ID` mediumtext NOT NULL,
+  `DateandTime` mediumtext NOT NULL,
+  `Content` mediumtext NOT NULL,
+  `Reason` mediumtext NOT NULL DEFAULT 'Edit',
+  `Success` mediumtext NOT NULL,
+  PRIMARY KEY (`Num`),
+  UNIQUE KEY `Comment_ID` (`Comment_ID`) USING HASH
+) ENGINE=InnoDB AUTO_INCREMENT=81 DEFAULT CHARSET=utf8mb4
