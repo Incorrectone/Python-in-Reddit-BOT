@@ -7,7 +7,7 @@ _mmsg_ = '''
 ### ***An exception has been raised:***   
     
 {}  
-  
+   
 >Please check whether you used the correct version of python   
 >in which your code is being executed [PYTHON 3.7.9](https://www.python.org/downloads/release/python-379/)  
 >Please check whether you are using the correct imported modules  
