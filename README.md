@@ -5,7 +5,9 @@
 I am new to Reddit Bots and wanted to create a bot that could execute Python Commands/[Run Saved Functions](/s 'Which would both accept input or not')  
 I don't write much in Github pages so I don't know how to source much of this but I will try!	
   
-***The bot will only recognise commands from markdown mode.***
+***The bot will only recognise commands from markdown mode.***  
+  
+***Warning! This bot can extract your accounts password! It has moderator access to the bot account as much as you! You will be basically giving access to anyone who tries execute python! Be carefull.. Even the client secret and ID***
   
 This BOT uses [PRAW](https://github.com/praw-dev/praw 'Python Reddit API Wrapper Github') and [mysql-connector](https://dev.mysql.com/doc/connector-python/en/ 'mysql.connector Docs')	
 ## Details
