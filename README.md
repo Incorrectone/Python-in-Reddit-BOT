@@ -3,7 +3,7 @@
 ## What this is about?
 
 
-## So ummmmm API access is gone so lol, but keep my shit code public still
+## So ummmmm API access is gone so lol, but will keep my shit code public still
 
 I am new to Reddit Bots and wanted to create a bot that could execute Python Commands/[Run Saved Functions](/s 'Which would both accept input or not')  
 I don't write much in Github pages so I don't know how to source much of this but I will try!	
